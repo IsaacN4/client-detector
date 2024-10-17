@@ -1,0 +1,107 @@
+@charset "utf-8";
+ 
+html {
+    font-family: 'Nunito Sans', Arial, sans-serif;
+    background-color: #181920;
+   
+}
+body {
+    background-color: #1e1e1e;  
+    font-family: 'Nunito Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+ 
+ 
+ 
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    color: #e7ecf0;
+    margin-top: 50px;
+    height: 80%;
+    width: 300px;
+   
+   
+ 
+ 
+}
+ 
+.system-info {
+   
+    text-align: left;
+    border: 0.5px solid #333232;
+   
+    border-radius: 5px;
+ 
+}
+ 
+.window-info {
+   
+    text-align: left;
+    border: 0.5px solid #333232;
+   
+    border-radius: 5px;
+ 
+ 
+}
+.battery-info {
+   
+    text-align: left;
+    border: 0.5px solid #333232;
+   
+    border-radius: 5px;
+   
+}
+.network-status {
+   
+    text-align: left;
+    border: 0.5px solid #333232;
+   
+    border-radius: 5px;
+   
+}
+ 
+h2 {
+   
+    background-color: #222224;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 22px;
+   
+   
+}
+.battery-info p {
+       padding-left: 20px;
+       padding-bottom: 10px;
+}
+ 
+ 
+.window-info p {
+      padding-left: 20px;
+      padding-bottom: 10px;
+}
+ 
+.system-info p{
+      padding-left: 20px;
+      padding-bottom: 10px;
+}
+ 
+.network-status p {
+    text-align: center;
+    padding-bottom: 10px;
+ 
+}
+ 
+.online {
+    color: rgb(3, 221, 32);
+}
+ 
+.offline {
+    color: red;
+}
